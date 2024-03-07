@@ -37,7 +37,7 @@ class ItemForm extends \yii\base\Model
     public function behaviors()
     {
         return [
-            TimestampBehavior::className(),
+            TimestampBehavior::class,
         ];
     }
 

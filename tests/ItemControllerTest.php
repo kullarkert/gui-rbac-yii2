@@ -36,7 +36,7 @@ class ItemControllerTest extends TestCase
             [
                 'components' => [
                     'authManager' => [
-                        'class' => \yii\rbac\PhpManager::className(),
+                        'class' => \yii\rbac\PhpManager::class,
                         'itemFile' => $this->itemFile,
                         'assignmentFile' => $this->assignmentFile,
                         'ruleFile' => $this->ruleFile,
